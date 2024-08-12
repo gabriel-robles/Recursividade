@@ -1,12 +1,12 @@
 package views;
 
-import controllers.Multiplicacao;
+import controllers.Divisao;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        var mult = new Multiplicacao();
+        var div = new Divisao();
 
-        var valor = mult.multiplica(3, 30);
+        var valor = div.restoDivisao(139, 30);
 
         System.out.println(valor);
     }
