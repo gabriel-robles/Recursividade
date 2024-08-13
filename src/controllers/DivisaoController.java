@@ -1,7 +1,7 @@
 package controllers;
 
-public class Divisao {
-    public Divisao() {
+public class DivisaoController {
+    public DivisaoController() {
         super();
     }
 
