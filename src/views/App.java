@@ -1,12 +1,12 @@
 package views;
 
-import controllers.FatorialController;
+import controllers.MdcController;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        var fat = new FatorialController();
+        var mdc = new MdcController();
 
-        var valor = fat.fatorialDuplo(7);
+        var valor = mdc.calculaMdc(24, 16);
 
         System.out.println(valor);
     }
