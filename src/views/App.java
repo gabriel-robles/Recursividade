@@ -1,12 +1,14 @@
 package views;
 
-import controllers.FatorialController;
+import controllers.VetorController;;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        var fat = new FatorialController();
+        var vet = new VetorController();
 
-        var valor = fat.fatorialDuplo(7);
+        int[] vetor = { 2, 7, 3, 10, 5};
+
+        var valor = vet.paresVetor(vetor, 5);
 
         System.out.println(valor);
     }
